@@ -152,6 +152,9 @@ button.addEventListener('click', function(){
     div.style.width = '150px';
     div.style.height = '150px';
     div.style.cssFloat = 'left';
+    div.style.color = 'purple';
+    div.style.fontSize = '30px';
+    div.style.textAlign = 'center';
     div.className = 'box';
     div.setAttribute('id', id);
     id++;
